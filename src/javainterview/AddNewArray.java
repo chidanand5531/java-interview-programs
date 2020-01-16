@@ -11,7 +11,7 @@ public class AddNewArray {
 
 		String[] output = inputString.replaceAll("[^0-9]", " ").trim().split(" ");
 
-		 System.out.println(Arrays.toString(output));// [50, 30]
+		// System.out.println(Arrays.toString(output));// [50, 30]
 		
 		 for(String s:output) {
 			 if(s.matches("[0-9]+")) {
