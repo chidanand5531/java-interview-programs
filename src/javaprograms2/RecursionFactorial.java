@@ -4,7 +4,7 @@ public class RecursionFactorial {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Factorial of number "+factorial(5));
+		System.out.println("Factorial of number : "+factorial(5));
 		
 	}
 	

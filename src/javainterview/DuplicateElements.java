@@ -11,7 +11,7 @@ public class DuplicateElements {
 
 		// compare each element.....> worst approach
 
-		for (int i = 0; i < names.length; i++) {
+/*		for (int i = 0; i < names.length; i++) {
 			for (int j = i + 1; j < names.length; j++) {
 
 				if (names[i].equals(names[j])) {
@@ -20,17 +20,18 @@ public class DuplicateElements {
 				}
 			}
 
-		}
-		System.out.println("*********");
+		}*/
+		
 		// using HashSet :- it stores unique values
-
+		System.out.print( "Duplicates  found are ---> ");
 		Set<String> store = new HashSet<String>();
 		for (String dupli : names) {
 			if (store.add(dupli) == false) {
-
-				System.out.println("Duplicate name is:" + dupli);
+				System.out.print(dupli + ",");
 			}
+			
 		}
+		
 		
 
 

@@ -4,7 +4,8 @@ public class Bubblesort_IntArray {
 
 	public static void main(String[] args) {
 
-		int arr[] = { 5, -1,4,2,8 };
+		//int arr[] = { 5, -1,4,2,8 };
+		String arr[] = { "sai", "ram", "guru", "naveen", "vasu", "amit", "chandu" };
 
 		System.out.print("Before sorting ---> ");
 		for (int i = 0; i < arr.length; i++) {
@@ -17,12 +18,30 @@ public class Bubblesort_IntArray {
 
 	}
 
-	public static void bubbleSort(int arr[]) {
+/*	public static void bubbleSort(int arr[]) {
 
 		int temp = 0;
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 1; j < arr.length - i; j++) {
 				if (arr[j - 1] > arr[j]) {
+					temp = arr[j - 1];
+					arr[j - 1] = arr[j];
+					arr[j] = temp;
+				}
+			}
+		}
+		for (int k = 0; k < arr.length; k++) {
+			System.out.print(arr[k] + " ");
+		}
+
+	}*/
+	
+	public static void bubbleSort(String arr[]) {
+
+		String temp = "";
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = 1; j < arr.length - i; j++) {
+				if (arr[j - 1].compareTo(arr[j])>0 ) {
 					temp = arr[j - 1];
 					arr[j - 1] = arr[j];
 					arr[j] = temp;

@@ -18,10 +18,6 @@ public class PalindromeString {
 		}
 	}
 
-	private static StringBuffer StringBuffer(String str) {
-
-		return null;
-	}
 
 	public static void main(String[] args) {
 
