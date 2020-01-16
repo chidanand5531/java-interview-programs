@@ -19,9 +19,9 @@ public class Anagrams {
 		String s4=new String(c2);
 		
 		if (s3.equals(s4)) {
-			System.out.println("Anagram");
+			System.out.println("Anagrams");
 		} else {
-			System.out.println(" Not Anagram");
+			System.out.println(" Not Anagrams");
 
 		}
 	}
