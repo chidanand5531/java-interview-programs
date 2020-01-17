@@ -14,12 +14,13 @@ public class UpprCase_LowerCase {
 	public static void reversCase(String str) {
 		String newStr = "";
 		for (int i = 0; i < str.length(); i++) {
-			
-			if (str.charAt(i) == str.toUpperCase().charAt(i))
-				newStr =newStr+ str.toLowerCase().charAt(i);
-			
-			if (str.charAt(i) == str.toLowerCase().charAt(i))
-				newStr =newStr + str.toUpperCase().charAt(i);
+
+			if (str.charAt(i) == str.toUpperCase().charAt(i)) {
+				newStr = newStr + str.toLowerCase().charAt(i);
+
+			} else if (str.charAt(i) == str.toLowerCase().charAt(i)) {
+				newStr = newStr + str.toUpperCase().charAt(i);
+			}
 		}
 		System.out.println(newStr);
 	}

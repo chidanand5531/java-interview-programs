@@ -42,7 +42,7 @@ public class PrimeNumbers {
 		
 		
 		getPrimenumbers(20);
-		getPrimenumbers(7);
+		//getPrimenumbers(7);
 
 	}
 

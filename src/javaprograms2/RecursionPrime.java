@@ -4,7 +4,7 @@ public class RecursionPrime {
 
 	public static void main(String[] args) {
 		
-		int num = 7;
+		int num = 8;
 		int prime = isPrime(num, num / 2);
 		
 		if (prime == 1) {
