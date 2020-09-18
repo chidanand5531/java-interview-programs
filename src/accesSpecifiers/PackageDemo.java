@@ -9,7 +9,7 @@ package accesSpecifiers;
 	int a;
 	int b;
 
-	PackageDemo(int a, int b) {
+	protected PackageDemo(int a, int b) {
 		this.a = a;
 		this.b = b;
 	}
