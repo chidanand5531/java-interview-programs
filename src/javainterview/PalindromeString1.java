@@ -6,8 +6,7 @@ public class PalindromeString1 {
 
 		//String str = "malAyal aM";
 		String str="too hot to Hoot";
-		str = str.replace(" ", ""); // space , without space
-		str=str.toUpperCase();
+		str = str.replace(" ", "").toLowerCase(); // space , without space
 
 		int start = 0;
 		int end = str.length() - 1; // 4

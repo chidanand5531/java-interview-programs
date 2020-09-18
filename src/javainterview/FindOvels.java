@@ -1,5 +1,7 @@
 package javainterview;
 
+import java.util.LinkedHashMap;
+
 public class FindOvels {
 
 	public static void main(String[] args) {
@@ -17,9 +19,9 @@ public class FindOvels {
 		
 
 	}
-/*	   public static void main(String[] args) {
-		      String str = "AEAIOG";
-		      LinkedHashMap<Character, Integer> hMap = new LinkedHashMap();
+
+/*		      String str = "AEAIOG";
+		      LinkedHashMap<Character, Integer> hMap = new LinkedHashMap<Character, Integer>();
 		      hMap.put('A', 0);
 		      hMap.put('E', 0);
 		      hMap.put('I', 0);
@@ -28,10 +30,11 @@ public class FindOvels {
 		      for (int i = 0; i <= str.length() - 1; i++) {
 		         if (hMap.containsKey(str.charAt(i))) {
 		            int count = hMap.get(str.charAt(i));
-		            hMap.put(str.charAt(i), ++count);
-		         }
+		            hMap.put(str.charAt(i), count+1);
+		         }else {
+		         hMap.put(str.charAt(i), 1);
 		      }
 		      System.out.println(hMap);
-		   }    output = {A=2, E=1, I=1, O=1, U=0}*/
+		   }*/    //output = {A=2, E=1, I=1, O=1, U=0}
+	   }
 
-}

@@ -12,7 +12,7 @@ public class Armstrongnumber {
 		while (num > 0) {
 			r = num % 10;
 			num = num / 10;
-			cube = cube + (r * r * r);
+			cube = cube + (r * r * r);  //[(1*1*1)+(5*5*5)+(3*3*3)]
 		}
 		if (t == cube) {
 			System.out.println("Armstrong no");
